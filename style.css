@@ -1,0 +1,107 @@
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+.allbox{
+    position: absolute;
+    display: flex;
+    padding: 40px 80px;
+    
+
+}
+.box1{
+    background-color: lightpink;
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid #000f;
+
+}
+.inbox1{
+    float: right;
+    background-color: yellow;
+    width: 90px;
+    text-align: center;
+    border: 1.5px solid #000f;
+
+}
+.box2{
+    background-color: lightpink;
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid #000f;
+    
+}
+.inbox2{
+    float: right;
+    background-color: red;
+    width: 90px;
+    text-align: center;
+    border: 1.5px solid #000f;
+}
+.box3{
+    background-color: lightpink;
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid #000f;
+    
+}
+.inbox3{
+    float: right;
+    background-color: green;
+    width: 90px;
+    text-align: center;
+    border: 1.5px solid #000f;
+
+}
+.navbar-nav-center {
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  }
+.navbar{
+    border: 2px solid #000f;
+}
+.navbar-brand{
+    font-weight: 500;
+}
+.nav-link{
+    font-weight: 700;
+    border: 2px solid #000f;
+}
+@media(max-width:992px){
+   .box3{
+    position: absolute;
+    margin: 58px 10px;
+    width: 80%;
+    top: 220px;
+   }
+
+}
+@media(max-width:390px){
+    .box1{
+        position: relative;
+        margin: -25px -25px;
+        width: 270px;
+        height: 130px; 
+    }
+    .box2{
+        position: absolute;
+        width: 270px;
+        height: 130px; 
+        margin: 130px -25px;
+        
+    }
+    .box3{
+        position: absolute;
+        width: 270px;
+        height: 130px; 
+        margin: 105px -25px;
+        
+    }
+    
+}
